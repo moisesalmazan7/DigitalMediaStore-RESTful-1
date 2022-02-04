@@ -13,7 +13,7 @@ sqlalchemy-utils = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
 python-dotenv = "*"
-pymysql = "*"
+pymysql = {extras = ["rsa"], version = "*"}
 
 [dev-packages]
 pytest = "*"
