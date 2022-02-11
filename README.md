@@ -30,9 +30,10 @@ $ pip install --user pipenv
 
 Después de instalar el paquete Pipenv tal vez sea necesario ajustar la variable de entorno `$PATH`.
 
-El mismo comando de instalación de dependencias creará el entorno virtual.
+El mismo comando de instalación de dependencias creará el entorno virtual. Para que el entorno virtual se cree dentro del propio proyecto se debe crear un directorio llamado `.venv` en la raíz del proyecto antes de instalar las dependencias.
 
 ```bash
+$ mkdir .venv ### Opcional
 $ pipenv install
 ```
 
