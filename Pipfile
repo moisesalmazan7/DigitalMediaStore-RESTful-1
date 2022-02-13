@@ -16,6 +16,8 @@ python-dotenv = "*"
 pymysql = {extras = ["rsa"], version = "*"}
 
 [dev-packages]
+black = "*"
+flake8 = "*"
 pytest = "*"
 
 [requires]
